@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Glow Beauty Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Glow Beauty Hub</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Shop</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <i class="fa-solid fa-bars menu-toggle"></i>
+        </div>
+    </nav>
+
+    <div class="container" style="padding-top: 4rem;">
+        <h1 class="section-title fade-in">Our Collection</h1>
+
+        <div class="filter-bar fade-in">
+            <div style="display: flex; gap: 1rem;">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="skincare">Skincare</button>
+                <button class="filter-btn" data-filter="makeup">Makeup</button>
+                <button class="filter-btn" data-filter="haircare">Haircare</button>
+            </div>
+            <div>
+                <input type="text" class="search-input" placeholder="Search products...">
+            </div>
+        </div>
+
+        <div class="product-grid" style="margin-bottom: 5rem;">
+            <!-- Skincare Product -->
+            <div class="product-card fade-in" data-category="skincare">
+                <div class="product-img-wrapper">
+                    <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=500&q=80" alt="Radiant Rose Serum"></a>
+                </div>
+                <h3 class="product-title">Radiant Rose Serum</h3>
+                <div class="product-price">$48.00</div>
+                <a href="product-detail.html" class="btn btn-outline" style="width: 100%;">Add to Cart</a>
+            </div>
+
+            <!-- Makeup Product -->
+            <div class="product-card fade-in" data-category="makeup">
+                <div class="product-img-wrapper">
+                    <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=500&q=80" alt="Velvet Matte Lipstick"></a>
+                </div>
+                <h3 class="product-title">Velvet Matte Lipstick</h3>
+                <div class="product-price">$24.00</div>
+                <a href="product-detail.html" class="btn btn-outline" style="width: 100%;">Add to Cart</a>
+            </div>
+
+            <!-- Makeup Product -->
+            <div class="product-card fade-in" data-category="makeup">
+                <div class="product-img-wrapper">
+                    <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1599305090598-fe179d501227?auto=format&fit=crop&w=500&q=80" alt="Flawless Foundation"></a>
+                </div>
+                <h3 class="product-title">Flawless Foundation</h3>
+                <div class="product-price">$52.00</div>
+                <a href="product-detail.html" class="btn btn-outline" style="width: 100%;">Add to Cart</a>
+            </div>
+
+            <!-- Haircare Product -->
+            <div class="product-card fade-in" data-category="haircare">
+                <div class="product-img-wrapper">
+                    <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=500&q=80" alt="Nourishing Hair Mask"></a>
+                </div>
+                <h3 class="product-title">Nourish Hair Mask</h3>
+                <div class="product-price">$38.00</div>
+                <a href="product-detail.html" class="btn btn-outline" style="width: 100%;">Add to Cart</a>
+            </div>
+
+            <!-- Skincare Product -->
+            <div class="product-card fade-in" data-category="skincare">
+                <div class="product-img-wrapper">
+                    <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=500&q=80" alt="Hydration Mist"></a>
+                </div>
+                <h3 class="product-title">Deep Hydration Mist</h3>
+                <div class="product-price">$28.00</div>
+                <a href="product-detail.html" class="btn btn-outline" style="width: 100%;">Add to Cart</a>
+            </div>
+
+            <!-- Makeup Product -->
+            <div class="product-card fade-in" data-category="makeup">
+                <div class="product-img-wrapper">
+                    <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1512496015851-a1cbfc388fc4?auto=format&fit=crop&w=500&q=80" alt="Sunset Eyeshadow Palette"></a>
+                </div>
+                <h3 class="product-title">Sunset Palette</h3>
+                <div class="product-price">$45.00</div>
+                <a href="product-detail.html" class="btn btn-outline" style="width: 100%;">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">Glow Beauty Hub</div>
+                    <p style="color: #bbb;">Elevating your daily beauty routine with premium, ethically sourced skincare and makeup products.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="products.html">Skincare</a></li>
+                        <li><a href="products.html">Makeup</a></li>
+                        <li><a href="products.html">Haircare</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Beauty Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="text-align: center; border-top: 1px solid #444; padding-top: 2rem; color: #888;">
+                &copy; 2026 Glow Beauty Hub. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

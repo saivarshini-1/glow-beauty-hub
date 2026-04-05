@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Glow Beauty Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body style="background-color: var(--bg-pink);">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Glow Beauty Hub</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Shop</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <i class="fa-solid fa-bars menu-toggle"></i>
+        </div>
+    </nav>
+
+    <div class="container section fade-in">
+        <h1 class="section-title">Get In Touch</h1>
+        <p style="text-align: center; color: var(--text-light); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">Have a question about a product, or need help with a recent order? Fill out the form below and our beauty consultants will reply within 24 hours.</p>
+        
+        <div class="contact-form">
+            <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                <div class="form-group">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Full Name</label>
+                    <input type="text" class="form-control" placeholder="e.g. Jane Doe" required>
+                </div>
+                <div class="form-group">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email Address</label>
+                    <input type="email" class="form-control" placeholder="hello@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Subject</label>
+                    <input type="text" class="form-control" placeholder="Order Issue, Product Question, etc." required>
+                </div>
+                <div class="form-group">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Message</label>
+                    <textarea class="form-control" placeholder="How can we help you today?" style="height: 150px; resize: vertical;" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 1rem;">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">Glow Beauty Hub</div>
+                    <p style="color: #bbb;">Elevating your daily beauty routine with premium, ethically sourced skincare and makeup products.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="products.html">Skincare</a></li>
+                        <li><a href="products.html">Makeup</a></li>
+                        <li><a href="products.html">Haircare</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Beauty Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="text-align: center; border-top: 1px solid #444; padding-top: 2rem; color: #888;">
+                &copy; 2026 Glow Beauty Hub. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
